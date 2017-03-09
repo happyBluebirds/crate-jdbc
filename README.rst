@@ -1,12 +1,13 @@
-===================
-CrateDB JDBC Driver
-===================
-
-.. image:: https://cdn.crate.io/web/2.0/img/crate-avatar_100x100.png
+.. |logo| image:: https://cdn.crate.io/web/2.0/img/crate-avatar_100x100.png
    :width: 100px
    :height: 100px
    :alt: Crate.IO
    :target: https://crate.io
+
+==========================
+CrateDB JDBC Driver |logo|
+==========================
+
 
 .. image:: https://travis-ci.org/crate/crate-jdbc.svg?branch=master
         :target: https://travis-ci.org/crate/crate-jdbc
