@@ -9,10 +9,11 @@
 CrateDB JDBC Driver |logo|
 ==========================
 
-
 .. image:: https://travis-ci.org/crate/crate-jdbc.svg?branch=master
         :target: https://travis-ci.org/crate/crate-jdbc
         :alt: Test
+
+|
 
 A JDBC_ driver for `CrateDB`_.
 
