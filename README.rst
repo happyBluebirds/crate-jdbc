@@ -12,7 +12,7 @@ CrateDB JDBC Driver
         :target: https://travis-ci.org/crate/crate-jdbc
         :alt: Test
 
-This is the JDBC driver for `CrateDB`_.
+A JDBC driver for `CrateDB`_.
 
 Currently, we don't provide the testing version of the Crate JDBC driver.
 As a workaround, you can build the JDBC driver jar using `Jitpack`_ or
