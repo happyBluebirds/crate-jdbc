@@ -3,7 +3,7 @@
    :target: https://crate.io
 
 ==========================
-CrateDB JDBC Driver |logo|
+|logo| CrateDB JDBC Driver
 ==========================
 
 .. image:: https://travis-ci.org/crate/crate-jdbc.svg?branch=master
