@@ -66,11 +66,10 @@ Looking for more help?
 
 .. _contribution docs: CONTRIBUTING.rst
 .. _Crate.io: http://crate.io/
+.. _CrateDB: https://github.com/crate/crate
 .. _developer docs: DEVELOP.rst
-.. _the project documentation: https://crate.io/docs/projects/crate-jdbc/
-.. _StackOverflow: https://stackoverflow.com/tags/crate
+.. _Jitpack: https://jitpack.io/#crate/crate-jdbc
 .. _paid support: https://crate.io/pricing/
 .. _Slack: https://crate.io/docs/support/slackin/
-
-.. _Crate: https://github.com/crate/crate
-.. _Jitpack: https://jitpack.io/#crate/crate-jdbc
+.. _StackOverflow: https://stackoverflow.com/tags/crate
+.. _the project documentation: https://crate.io/docs/projects/crate-jdbc/
