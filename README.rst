@@ -1,10 +1,10 @@
-.. |logo| image:: logo.png
+===================
+CrateDB JDBC Driver
+===================
+
+.. image:: logo.png
    :alt: Crate.IO
    :target: https://crate.io
-
-==========================
-|logo| CrateDB JDBC Driver
-==========================
 
 .. image:: https://travis-ci.org/crate/crate-jdbc.svg?branch=master
         :target: https://travis-ci.org/crate/crate-jdbc
