@@ -38,13 +38,13 @@ Change directory into the repository::
 
 Build a regular JAR file::
 
-   ./gradlew jar
+    $ ./gradlew jar
 
 Or, build a JAR file that includes dependencies::
 
-   ./gradlew standaloneJar
+    $ ./gradlew standaloneJar
 
-Afterwards you can find the JAR file in the `build/lib`` directory.
+Afterwards you can find the JAR file in the ``build/lib`` directory.
 
 Contributing
 ============
