@@ -1,3 +1,7 @@
+===================
+CrateDB JDBC Driver
+===================
+
 .. image:: https://cdn.crate.io/web/2.0/img/crate-avatar_100x100.png
    :width: 100px
    :height: 100px
@@ -8,44 +12,39 @@
         :target: https://travis-ci.org/crate/crate-jdbc
         :alt: Test
 
-=================
-Crate JDBC Driver
-=================
+This is the JDBC driver for `CrateDB`_.
 
-.. highlight:: java
-
-This is the JDBC driver for `Crate`_.
-
-Currently we don't provide the testing version of the Crate JDBC driver.
+Currently, we don't provide the testing version of the Crate JDBC driver.
 As a workaround, you can build the JDBC driver jar using `Jitpack`_ or
 build it from source.
+
+Prerequisites
+=============
+
+The CrateDB JDBC driver 2.x requires a CrateDB version greater than or equal to 0.56.
+
+The CrateDB JDBC driver 1.x requires a CrateDB version less than 0.56 but greater than or equal to 0.38.
 
 Installation
 ============
 
-.. note::
+Clone the repository::
 
-   Crate JDBC driver 1.x requires a Crate version equal or greater than 0.38.0
-   but lower than 0.56.0.
-   Crate JDBC driver 2.x requires a Crate version equal or greater than 0.56.0.
+    $ git clone --recursive https://github.com/crate/crate-jdbc
 
-Build JAR from source
----------------------
+Change directory into the repository::
 
-Clone the repo::
+    $ cd crate-jdbc
 
-  git clone --recursive https://github.com/crate/crate-jdbc
-  cd crate-jdbc
-
-and build a JAR::
+Build a regular JAR file::
 
    ./gradlew jar
 
-or build a jar including all dependencies::
+Or, build a JAR file that includes dependencies::
 
    ./gradlew standaloneJar
 
-Afterwards a JAR file of the current version exists under ``build/lib``.
+Afterwards you can find the JAR file in the `build/lib`` directory.
 
 Contributing
 ============
